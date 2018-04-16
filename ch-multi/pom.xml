@@ -16,13 +16,13 @@
 	<repository>
 		<id>raptor.releases</id>
 	        <url>
-			http://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.com/content/repositories/releases/
+			http://ebaycentral04-2275473.lvs02.dev.ebayc3.com/content/repositories/releases/
 	        </url>
 	</repository>
         <snapshotRepository>
 	        <id>raptor.snapshots</id>
 	        <url>
-		        http://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.com/content/repositories/snapshots/
+		        http://ebaycentral04-2275473.lvs02.dev.ebayc3.com/content/repositories/snapshots/
 	        </url>
 	</snapshotRepository>
   </distributionManagement>
