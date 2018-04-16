@@ -18,7 +18,7 @@
                 <mirror>
                         <id>central</id>
                         <mirrorOf>central</mirrorOf>
-                        <url>https://ebaycentral.qa.ebay.com/content/repositories/central</url>
+                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/central</url>
                 </mirror>
         </mirrors>
 
@@ -27,14 +27,14 @@
                         <id>ebay</id>
                         <!-- add a repository property to ease the archetype:generate useage -->
                         <properties>
-                                <archetypeCatalog>https://ebaycentral.qa.ebay.com/content/repositories                                      /releases/archetype-catalog.xml
+                                <archetypeCatalog>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories                                      /releases/archetype-catalog.xml
                                 </archetypeCatalog>
                         </properties>
                         <repositories>
                                 <!-- Raptor Repository -->
                                 <repository>
                                         <id>raptor-releases</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/rele                                      ases/</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/rele                                      ases/</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -44,7 +44,7 @@
                                 </repository>
                                 <repository>
                                         <id>raptor-snapshots</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/snap                                      shots/</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/snap                                      shots/</url>
                                         <releases>
                                                 <enabled>false</enabled>
                                         </releases>
@@ -54,7 +54,7 @@
                                 </repository>
                                 <repository>
                                         <id>raptor-thirdparty </id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/thir                                      dparty</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/thir                                      dparty</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -64,7 +64,7 @@
                                 </repository>
                                 <repository>
                                         <id>raptor-commercial </id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/comm                                      ercial</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/comm                                      ercial</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -74,7 +74,7 @@
                                 </repository>
                                 <repository>
                                         <id>raptor.v3debt</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/v3de                                      bt/</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/v3de                                      bt/</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -86,7 +86,7 @@
                         <pluginRepositories>
                                 <pluginRepository>
                                         <id>central</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/cent                                      ral</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/cent                                      ral</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -96,7 +96,7 @@
                                 </pluginRepository>
                                 <pluginRepository>
                                         <id>raptor-releases</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/rele                                      ases</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/rele                                      ases</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -106,7 +106,7 @@
                                 </pluginRepository>
                                 <pluginRepository>
                                         <id>raptor-plugins</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/plug                                      ins</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/plug                                      ins</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -116,7 +116,7 @@
                                 </pluginRepository>
                                 <pluginRepository>
                                         <id>raptor-snapshots</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/snap                                      shots/</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/snap                                      shots/</url>
                                         <releases>
                                                 <enabled>false</enabled>
                                         </releases>
@@ -126,7 +126,7 @@
                                 </pluginRepository>
                                 <pluginRepository>
                                         <id>raptor-thirdparty</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/thir                                      dparty</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/thir                                      dparty</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
@@ -136,7 +136,7 @@
                                 </pluginRepository>
                                 <pluginRepository>
                                         <id>raptor.v3debt</id>
-                                        <url>https://ebaycentral.qa.ebay.com/content/repositories/v3de                                      bt/</url>
+                                        <url>https://lvs2-ebaycentralProxyVip-zxh7w.vip.lvs02.dev.ebayc3.co/content/repositories/v3de                                      bt/</url>
                                         <releases>
                                                 <enabled>true</enabled>
                                         </releases>
