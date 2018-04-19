@@ -14,148 +14,148 @@
                 </server>
         </servers>
 
-        <mirrors>
-                <mirror>
-                        <id>central</id>
-                        <mirrorOf>central</mirrorOf>
-                        <url>http://ebaycentral.qa.ebay.com/content/repositories/central</url>
-                </mirror>
-        </mirrors>
+      <mirrors>
+		<mirror>
+			<id>central</id>
+			<mirrorOf>central</mirrorOf>
+			<url>https://ebaycentral.qa.ebay.com/content/repositories/central</url>
+		</mirror>
+	</mirrors>
 
-        <profiles>
-                <profile>
-                        <id>ebay</id>
-                        <!-- add a repository property to ease the archetype:generate useage -->
-                        <properties>
-                                <archetypeCatalog>http://ebaycentral.qa.ebay.com/content/repositories                                      /releases/archetype-catalog.xml
-                                </archetypeCatalog>
-                        </properties>
-                        <repositories>
-                                <!-- Raptor Repository -->
-                                <repository>
-                                        <id>raptor-releases</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/rele                                      ases/</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </repository>
-                                <repository>
-                                        <id>raptor-snapshots</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/snap                                      shots/</url>
-                                        <releases>
-                                                <enabled>false</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>true</enabled>
-                                        </snapshots>
-                                </repository>
-                                <repository>
-                                        <id>raptor-thirdparty </id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/thir                                      dparty</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </repository>
-                                <repository>
-                                        <id>raptor-commercial </id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/comm                                      ercial</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </repository>
-                                <repository>
-                                        <id>raptor.v3debt</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/v3de                                      bt/</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </repository>
-                        </repositories>
-                        <pluginRepositories>
-                                <pluginRepository>
-                                        <id>central</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/cent                                      ral</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </pluginRepository>
-                                <pluginRepository>
-                                        <id>raptor-releases</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/rele                                      ases</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </pluginRepository>
-                                <pluginRepository>
-                                        <id>raptor-plugins</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/plug                                      ins</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </pluginRepository>
-                                <pluginRepository>
-                                        <id>raptor-snapshots</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/snap                                      shots/</url>
-                                        <releases>
-                                                <enabled>false</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>true</enabled>
-                                        </snapshots>
-                                </pluginRepository>
-                                <pluginRepository>
-                                        <id>raptor-thirdparty</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/thir                                      dparty</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </pluginRepository>
-                                <pluginRepository>
-                                        <id>raptor.v3debt</id>
-                                        <url>http://ebaycentral.qa.ebay.com/content/repositories/v3de                                      bt/</url>
-                                        <releases>
-                                                <enabled>true</enabled>
-                                        </releases>
-                                        <snapshots>
-                                                <enabled>false</enabled>
-                                        </snapshots>
-                                </pluginRepository>
-                        </pluginRepositories>
-                </profile>
-        </profiles>
+	<profiles>
+		<profile>
+			<id>ebay</id>
+			<!-- add a repository property to ease the archetype:generate useage -->
+			<properties>
+				<archetypeCatalog>https://ebaycentral.qa.ebay.com/content/repositories/releases/archetype-catalog.xml
+				</archetypeCatalog>
+			</properties>
+			<repositories>
+				<!-- Raptor Repository -->
+				<repository>
+					<id>raptor-releases</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/releases/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>raptor-snapshots</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/snapshots/</url>
+					<releases>
+						<enabled>false</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>raptor-thirdparty </id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/thirdparty</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>raptor-commercial </id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/commercial</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>raptor.v3debt</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/v3debt/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>central</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/central</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>raptor-releases</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/releases</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>raptor-plugins</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/plugins</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>raptor-snapshots</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/snapshots/</url>
+					<releases>
+						<enabled>false</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>raptor-thirdparty</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/thirdparty</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>raptor.v3debt</id>
+					<url>https://ebaycentral.qa.ebay.com/content/repositories/v3debt/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
 
-        <activeProfiles>
-                <activeProfile>ebay</activeProfile>
-        </activeProfiles>
+	<activeProfiles>
+		<activeProfile>ebay</activeProfile>
+	</activeProfiles>
 
-        <pluginGroups>
-                <pluginGroup>org.mortbay.jetty</pluginGroup>
+	<pluginGroups>
+		<pluginGroup>org.mortbay.jetty</pluginGroup>
                 <pluginGroup>com.ebay.raptor.build</pluginGroup>
-                <pluginGroup>org.codehaus.mojo</pluginGroup>
-                <pluginGroup>org.sonatype.maven.plugins</pluginGroup>
-        </pluginGroups>
+		<pluginGroup>org.codehaus.mojo</pluginGroup>
+		<pluginGroup>org.sonatype.maven.plugins</pluginGroup>
+	</pluginGroups>
 </settings>
